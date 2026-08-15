@@ -11,10 +11,10 @@ running_total += appetizers + main_courses + desserts + drinks
 print('Total bill so far:', running_total)
 
 tip = running_total * 0.25
-print('Tip amount:', tip)
+print('Tip Amount:', tip)
 
 running_total += tip
-print('Total with tip:', running_total)
+print('Total with Tip:', running_total)
 
 final_bill = running_total / num_of_friends
 print('Bill per person:', final_bill)
