@@ -12,17 +12,17 @@ has_ride_share_app = False
  # OR/or means: at least ONE condition must be True.
 
 if not distance_mi:
-    print(False)
+    print(False)                
 
 elif distance_mi <= 1:
-    print(not is_raining)
+    print(not is_raining)       
 
 
 elif distance_mi <= 6:
-    print(has_bike and not is_raining)
+    print(has_bike and not is_raining)  
 
 else: 
-    print(has_car or has_ride_share_app)
+    print(has_car or has_ride_share_app)    
 
 # Comparisons produce True or False
 # When you write:
