@@ -5,6 +5,8 @@ has_car = False
 has_ride_share_app = False
 
  # NOT flips the truth value; it turns a falsy value into True so the block can run.
+ # x = True  → True
+ # x = not True  → False
 
 if not distance_mi:
     print(False)
