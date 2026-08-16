@@ -4,9 +4,12 @@ has_bike = True
 has_car = False
 has_ride_share_app = False
 
- # NOT flips the truth value; it turns a falsy value into True so the block can run.
+ # NOT/not flips the truth value; it turns a falsy value into True so the block can run.
  # x = True  → True
  # x = not True  → False
+
+ # AND/and means: BOTH conditions must be True.
+ # OR/or means: at least ONE condition must be True.
 
 if not distance_mi:
     print(False)
