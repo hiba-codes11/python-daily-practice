@@ -19,3 +19,13 @@ elif distance_mi <= 6:
 else: 
     print(has_car or has_ride_share_app)
 
+# Comparisons produce True or False
+# When you write:
+# distance_mi <= 6
+# Python asks:
+# Is 7 less than or equal to 6?
+# No.
+# Therefore:
+# distance_mi <= 6
+# becomes:
+# False
