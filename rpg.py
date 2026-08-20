@@ -42,3 +42,6 @@ print(create_character('ren', 4, 2, 1))
 
 
 
+# return → gives a value out of a function
+# print() → shows something on the screen
+# scope → determines where a variable can be accessed
