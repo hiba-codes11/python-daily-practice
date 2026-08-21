@@ -21,7 +21,12 @@ poem2 = """The grass is green\n
 here and there\n
 hoping for rain\n
 before it turns yellow"""
-poem3 = """There\nonce\nwas\na\ndragon"""
+
+poem3 = """There\n
+once\n
+was\n
+a\n
+dragon"""
 
 print(pin_extractor([poem, poem2, poem3]))
 
