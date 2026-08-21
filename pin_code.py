@@ -21,3 +21,8 @@ poem2 = 'The grass is green\nhere and there\nhoping for rain\nbefore it turns ye
 poem3 = 'There\nonce\nwas\na\ndragon'
 
 print(pin_extractor([poem, poem2, poem3]))
+
+# This was quiet a challenge for me, but I think I got it.
+# I had to use enumerate to get the line index and then check if the length of the words in
+# that line was greater than the line index. 
+# If it was, I added the length of that word to the secret code. If not, I added a '0'.
