@@ -12,9 +12,9 @@ def pin_extractor(poems):
         secret_codes.append(secret_code)
     return secret_codes        
 
-poem = """Stars and the moon
-shine in the sky
-white and
+poem = """Stars and the moon\n
+shine in the sky\n
+white and\n
 until the end of the night"""
 
 poem2 = """The grass is green\n
