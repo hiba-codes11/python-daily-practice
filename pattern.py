@@ -3,8 +3,6 @@ def number_pattern(n):
     numbers = []
     for number in number_pattern:
         numbers = n.range()
-
-
         
 
 
