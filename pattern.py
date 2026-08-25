@@ -22,6 +22,7 @@ def number_pattern(n):
 print(number_pattern(4))
 print(number_pattern(12))
 print(number_pattern(0))
+print(number_pattern('a'))
 
 #   INPUT
 #     ↓
