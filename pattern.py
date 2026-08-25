@@ -1,17 +1,23 @@
 def number_pattern(n):
 
+    # 1. Validate
+    if not isinstance(n, int):
+        return 'Argument must be an integer value.'
+
+    if n < 1:
+        return 'Argument must be an integer greater than 0.'
+
+    # 2. Create an empty list
     numbers = []
-    for number in number_pattern:
-        numbers = n.range()
-        
 
+    # 3. Loop from 1 to n
+    for number in range(1, n + 1):
 
-        if not isinstance(n,int):
-            return 'Argument must be an integer value'
+        # 4. Add each number as a string
+        numbers.append(str(number))
 
-        if n < 1:
-            return 'Argument must be an integer greater than 0'
-
+    # 5. Join them with spaces
+    return ' '.join(numbers)
 
 print(number_pattern(4))
 print(number_pattern(12))
